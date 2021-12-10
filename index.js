@@ -1,8 +1,5 @@
 $(document).ready(function(){
-    $(".card-flip").on("click", function(){
-        $(this).addClass("flippin");   
-    
+    $(".the_card").click(function(){
+        $(this).first().addClass("flippin")     
     })
-
-
 });
