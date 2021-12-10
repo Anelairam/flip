@@ -11,35 +11,10 @@ body {
     height: 200px;
     margin: 10px;
     background-color: white;
-    /* animation-name: flippin;
-    animation-duration: 5s; */
-    transition-property: background, transform, z-index,
-        width, height;
-    transition-duration: 1s;
 }
 
-/* @keyframes flippin{
-    0%{background-color: yellow;}
-    25%{background-color: black;}
-    50%{background-color: blue;}
-    100%{background-color: blueviolet;}
-
-} */
-
-/* .card-flip:active{
-    transform: rotateY(360deg);
-    transform: rotate3d(15,1,50,90deg);
+.flippin {
+    transform: rotateY(180deg);
+    transition-duration: 1.5s;
     background-color: cornflowerblue;
-    z-index: 4;
-    width: 500px;
-    height: 500px;
-
-} */
-
-.card-flip:active {
-    background-color: yellowgreen;
-    /* transform: rotateZ(-150deg); */
-    /* transform: rotateY(45deg); */
-    transform: rotateY(180deg) scaleX(7) scaleY(5);
-    z-index: 1;
 }

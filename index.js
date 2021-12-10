@@ -1,7 +1,8 @@
-var back_card = document.querySelector(".card-flip")
+$(document).ready(function(){
+    $(".card-flip").on("click", function(){
+        $(this).addClass("flippin");   
+    
+    })
 
-back_card.addEventListener("click", e => {
-    alert("you clicked");
-})
 
-
+});
