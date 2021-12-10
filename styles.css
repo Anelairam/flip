@@ -40,6 +40,6 @@ body {
     background-color: yellowgreen;
     /* transform: rotateZ(-150deg); */
     /* transform: rotateY(45deg); */
-    transform: rotateY(45deg);
+    transform: rotateY(180deg) scaleX(7) scaleY(5);
     z-index: 1;
 }
