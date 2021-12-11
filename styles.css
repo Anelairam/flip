@@ -9,12 +9,22 @@ body {
   margin-top: 50%;
 }
 
+@keyframes rip_page {
+  0% {transform: rotateZ(45deg);}
+}
+
 .the_card {
+  width: 300px;
   height: 200px;
+  border: 2px solid red;
   background-color: lightpink;
   text-align: center;
   padding-top: 35px;
   line-height: 50%;
+}
+
+.the_card:hover {
+  animation: rip_page 25s;
 }
 
 #card_two {
